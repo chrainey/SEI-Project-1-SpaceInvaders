@@ -1,0 +1,47 @@
+Issues still to fix
+
+Centralize the grid in center of screen
+
+
+
+
+
+
+
+//Day One:
+
+I decided to choose Space Invaders. At first I fancied tetris but when I looked at it it seemed very complicated 
+for all the different shapes rotations and positions. PLus a massive grid.
+I thopugh Space Invaders would be a good enough challenge
+
+Did excalidraw of my whole plan. 
+
+//DAy Two:
+
+I really felt that last week crammed a lot in and i felt behind. I decided to take Saturday re watching
+all of the functions, objects, methods and classes.
+
+Day 3 :
+
+Spent most of the day at Mcfly concert with girlfriend but found some good places to get sounds and images
+
+Day 4 :
+
+Rewatched lessons on whack a mole homework and grid movements
+
+
+
+
+Day 5:
+
+
+
+Day:6: Relaised using an array containing destroyed aliens can help me when setting new wave of enemies.
+Had issue with ebvery keyboard button allowing a shoot. Also when spacebar to shoot it would destroy 2 enemies. This was because there was a shoot() lower in the function from a different way of doing it. Whne pressing spacebar i was actually firing 2 bullets but couldnt see tyhat as they were on top of oneanother
+
+Got shooting mechanism,, for buillets to work. Needed set interval in there
+
+
+Day 7
+
+Enemies are moving as previously but they are getting destroyed properly

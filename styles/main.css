@@ -1,0 +1,109 @@
+.title {
+  height: 150px;
+  background-image: url(/assets/space-invaders-logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+.grid-wrapper {
+  width: 900px;
+  height: 900px;
+}
+
+.grid {
+  width: 900px;
+  height: 900px;
+  border: solid white 1px;
+  background-color: black;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  
+}
+
+.grid div {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+h1 {
+  color: green ;
+}
+
+.enemy {
+  background-image: url(/assets/ufo.png);
+  border-radius: 30px;
+}
+
+.player {
+  background-image: url(/assets/space-invaders\ \(2\).png)
+}
+.bullet {
+  background-image: url(/assets/bullet\ \(1\).png );
+  border-radius: 10px;
+}
+
+.destroy {
+  background-image: url(/assets/explosion.png);
+}
+
+.bomb {
+  background-image: url(/assets/nuclear-bomb.png);
+}
+
+
+.info-container {
+  width: 900px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border: 20px;
+  
+}
+
+.page-container {
+  background-image: url(/assets/videoblocks-science-fiction-blue-checkerboard-motion-background-loop_sewdlggl0_thumbnail-1080_01.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.info {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.instructions-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.instruction-item {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.instruction-text-container {
+  margin-left: 15px;
+  color: white;
+}
+
+.game-area {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}

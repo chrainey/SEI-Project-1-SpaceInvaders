@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SPACE INVADER PROJECT</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/app.js" charset="utf-8"></script>
+    
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="title">
+        
+      </div>
+      <div class="info-container">
+        <button id="start">Start Game!</button>
+        <div class="info">Score:<span id='score'></span></div>
+        <div class="info">High Score:<span id='highScore'></span></div>
+        <div class="info">Lives:<span id='lives'></span></div>
+      </div>
+      <div class="game-area">
+        <div class="grid-wrapper">
+          <div class="grid">
+            <!-- Grid cells go here -->
+          </div>
+        </div>
+        <div class="instructions-container">
+          <div class="instruction-item">
+            <img class="icon-image" src="/assets/space-invaders (2).png" alt="player-icon" width="100">
+            <div class="instruction-text-container">
+              <h3>Move Spaceship</h3>
+              <p>Press the Start Game button to start the wave of enemies. Press the left and right arrows to
+                move your ship.</p>
+            </div>
+          </div>
+
+          <div class="instruction-item">
+            <img class="icon-image" src="/assets/ufo.png" alt="bullet-icon" width="100">
+            <div class="instruction-text-container">
+              <h3>Destroy Enemies</h3>
+              <p>Use the space bar to fire at the enemies before they reach you at the bottom of the screen.
+                Make sure to avoid the bombs that the enemies drop.
+              </p>
+            </div>
+          </div>
+
+          <div class="instruction-item">
+            <img class="icon-image" src="/assets/explosion.png" alt="bomb-icon " width="100">
+            <div class="instruction-text-container">
+              <h3>Winning/Losing</h3>
+              <p>If you are hit by a bomb your will lose a life. Once you have lost all 3 lives you have lost the game.
+                If the aliens hit the ground or yourself you will also lose the game.
+                To win you need to destroy all enemies without losing all of your lives before
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>  
+    
+  </body>
+</html>
