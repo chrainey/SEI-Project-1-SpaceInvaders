@@ -1,6 +1,6 @@
 .title {
   height: 150px;
-  background-image: url(/assets/space-invaders-logo.png);
+  background-image: url(../assets/space-invaders-logo.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,24 +33,24 @@ h1 {
 }
 
 .enemy {
-  background-image: url(/assets/ufo.png);
+  background-image: url(../assets/ufo.png);
   border-radius: 30px;
 }
 
 .player {
-  background-image: url(/assets/space-invaders\ \(2\).png)
+  background-image: url(../assets/space-invaders\ \(2\).png)
 }
 .bullet {
-  background-image: url(/assets/bullet\ \(1\).png );
+  background-image: url(../assets/bullet\ \(1\).png );
   border-radius: 10px;
 }
 
 .destroy {
-  background-image: url(/assets/explosion.png);
+  background-image: url(../assets/explosion.png);
 }
 
 .bomb {
-  background-image: url(/assets/nuclear-bomb.png);
+  background-image: url(../assets/nuclear-bomb.png);
 }
 
 
@@ -65,7 +65,7 @@ h1 {
 }
 
 .page-container {
-  background-image: url(/assets/videoblocks-science-fiction-blue-checkerboard-motion-background-loop_sewdlggl0_thumbnail-1080_01.png);
+  background-image: url(../assets/videoblocks-science-fiction-blue-checkerboard-motion-background-loop_sewdlggl0_thumbnail-1080_01.png);
   background-position: center;
   background-size: cover;
   display: flex;  
