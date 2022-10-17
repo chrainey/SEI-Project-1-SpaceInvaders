@@ -2,7 +2,7 @@ function init() {
   
 
   // ! Elements 
-  //Target Grif//
+  //Target Grid//
   const start = document.querySelector('#start')
   const grid = document.querySelector('.grid')
   const scoreDisplay = document.querySelector('#score')
@@ -107,7 +107,7 @@ function init() {
     //Remove player from previous position//
     removePlayer(currentPosition)  
 
-    if(left === keyCode && currentPosition % width !== 0) {
+    if  (left === keyCode && currentPosition % width !== 0) {
       console.log('clicked left')
       currentPosition -= 1
       
@@ -165,7 +165,7 @@ function init() {
     
     //If array reaches bottom row of grid game over
     for (let i = 0; i < enemies.length; i++) {
-      if(enemies[i] > (cells.length - (width - 1))) {
+      if  (enemies[i] > (cells.length - (width - 1))) {
         console.log('Game Over')
         loseGame()
       }
@@ -198,11 +198,11 @@ function init() {
         cells[currentBulletPosition].classList.remove('enemy')
         cells[currentBulletPosition].classList.add('destroy')
         clearInterval(missile)
-      //Delay removing destroy class after half a second    
+        //Delay removing destroy class after half a second    
         setTimeout(() => cells[currentBulletPosition].classList.remove('destroy'), 500)
-      //Based on below element when an enemy is on current bullet position it will be removed from array//   
+        //Based on below element when an enemy is on current bullet position it will be removed from array//   
         const enemyDestroyed = enemies.indexOf(currentBulletPosition)
-      //Enemy destroyed is taken from enemies array//
+        //Enemy destroyed is taken from enemies array//
         enemiesDestroyed.push(enemyDestroyed)
         score = score + 100
         setHighScore(score)
@@ -230,13 +230,13 @@ function init() {
       cells[currentBombPosition].classList.remove('bomb')
       currentBombPosition += width
       cells[currentBombPosition].classList.add('bomb')
-    // If bomb hits player//
+      // If bomb hits player//
       if (cells[currentBombPosition].classList.contains('player')) {
         cells[currentBombPosition].classList.remove('bomb')
         cells[currentBombPosition].classList.remove('player')
         cells[currentBombPosition].classList.add('destroy')
         clearInterval(bombsId)
-      //Delay removing destroy class after half a second    
+        //Delay removing destroy class after half a second    
         setTimeout(() => cells[currentBombPosition].classList.remove('destroy'), 500)
         //Lose one life//
         lives = lives - 1
@@ -280,7 +280,7 @@ function init() {
     // After a short delay (due to alert behaviour) alert the score and also update high score if needed
     setTimeout(() => {
       // Alert score
-      alert("Unlucky you DIED!!!!!! Your score is " + score + ". Refresh the page and click start game to try again")
+      alert('Unlucky you DIED!!!!!! Your score is ' + score + '. Refresh the page and click start game to try again')
       // Update high score
       setHighScore(score)
     }, 50)
@@ -291,7 +291,7 @@ function init() {
     clearInterval(bombsId)
     setTimeout(() => {
       // Alert score
-      alert("Congratulations you have Won!! Your score is " + score + ". Refresh the page and click start game to try again")
+      alert('Congratulations you have Won!! Your score is ' + score + '. Refresh the page and click start game to try again')
       // Update high score
       setHighScore(score)
     }, 50)
