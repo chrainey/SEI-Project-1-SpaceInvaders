@@ -2,7 +2,7 @@
 
 Space Invaders is a Japanese arcade game that was released in 1978 and was one of the first worldwide popular video games. A ship is spawned at the bottom of the screen and you need to move the ship left and right whilst shooting the aliens descending from the top of the screen.
 
-[Find the game by clicking here](https://chrainey.github.io/Space-Invaders/)
+[Find the game by clicking here](https://chrainey.github.io/SEI-Project-1-SpaceInvaders/)
 
 ---
 
